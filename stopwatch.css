@@ -1,0 +1,43 @@
+body{
+    background: orange;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    height: 100%;
+}
+
+.wrap{
+    width: 800px;
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 43px;
+    text-transform: uppercase;
+}
+
+#seconds, #tens, #minutes{
+    font-size: 40px;
+}
+
+#button-start, #button-stop, #button-reset{
+    background: orange;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 15px 60px;
+    width: 180px;
+    margin: auto 15px;
+    border-radius: 8px ;
+    outline: none;
+    
+}
+
+#button-start:hover, #button-stop:hover, #button-reset:hover{
+    background-color: rgb(48, 206, 48);
+    transform: translateY(1px);
+}
